@@ -10,9 +10,7 @@
 
 body {
     background-color: rgb(43, 42, 42);
-    display: grid;
     width: 100%;
-    justify-items: center;
 }
 
 body h1 {
@@ -25,9 +23,9 @@ body h1 {
     background-color: blanchedalmond;
     max-width: 520px;
     width: 90%;
-    margin: 40px;
+    margin: auto;
+    margin-top: 50px;
     border-radius: 12px;
-    align-self: center;
 }
 
 [ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
