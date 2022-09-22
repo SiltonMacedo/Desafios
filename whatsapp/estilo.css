@@ -8,14 +8,33 @@
     padding: 0;
 }
 
+main {
+    padding: 20px;
+    background-image: url(fundo.jpg);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 90vh;
+}
+
 body {
     background-color: rgb(43, 42, 42);
     width: 100%;
+    
+
 }
 
 body h1 {
-    color: goldenrod;
     text-align: center;
+}
+
+body h1 a {
+    color: blanchedalmond;
+    text-shadow: 2px 2px 2px black;
+}
+
+body h1 a:hover {
+    color: rgb(189, 159, 85);
 }
 
 #cartao {
@@ -23,9 +42,17 @@ body h1 {
     background-color: blanchedalmond;
     max-width: 520px;
     width: 90%;
-    margin: auto;
-    margin-top: 50px;
+    margin: 50px auto;
     border-radius: 12px;
+}
+
+footer {
+    font-size: 10px;
+    color: blanchedalmond;
+    text-align: center;
+}
+footer h2 {
+    font-size: 2em;
 }
 
 [ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) {
